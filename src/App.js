@@ -2,6 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+// FOR AUTHENTICATION //
+import "@aws-amplify/ui-react/styles.css";
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from "@aws-amplify/ui-react";
+// ---
+
+
+/* works //
 function App() {
   return (
     <div className="App">
@@ -15,19 +30,16 @@ function App() {
 
 export default App;
 
+*/
+
+
+
 /**
  * import logo from "./logo.svg";
- *
- * FOR AUTHENTICATION
-import "@aws-amplify/ui-react/styles.css";
-import {
-  withAuthenticator,
-  Button,
-  Heading,
-  Image,
-  View,
-  Card,
-} from "@aws-amplify/ui-react";
+ */
+
+ // FOR AUTHENTICATION
+
 
 function App({ signOut }) {
   return (
@@ -43,4 +55,3 @@ function App({ signOut }) {
 
 export default withAuthenticator(App);
 
- */
