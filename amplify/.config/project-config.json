@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "amplifyreactgraphqi",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "~/work/projects/shane/amplifyapp",
+      "DistributionDir": "build",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
+    }
+  }
+}
